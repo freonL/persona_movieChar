@@ -18,7 +18,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 3. Put dataset on same folder with main.py
-4. open main.py on text editor, change setting *personality_insights* and *filename* with IBM watson setting and dataset filename
+4. open main.py on text editor, change setting *personality_insights* (API Key and URL) and *filename* with IBM watson setting and dataset filename
 
 
 ## Running
@@ -30,4 +30,4 @@ source venv/bin/activate
 ```bash
 python main.py
 ```
-3. after python file finish running, output files will be on output directory
+3. after python file finish running, output files will be in output directory
